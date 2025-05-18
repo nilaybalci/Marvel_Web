@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARVELSHOP</title>
+    <link rel="stylesheet" href="satis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+   
+</head>
+<body>
+
+    <section>
+        <div id="menu">
+            <div class="logo">
+                <a href="index.html"><img src ="image/logo.png"></a>
+            </div>
+            <div class="search">
+                
+                <ul>
+                
+                    <li class="menu-item"><a href="karakterler.html" target="_blank">KARAKTERLER</a> 
+                        <ul class="submenu">
+                        <li><a href="ironman.html">Iron Man</a></li>
+                        <li><a href="hulk.html">Hulk</a></li>
+                        <li><a href="thanos.html">Thanos</a></li>
+                        <li><a href="thor.html">Thor</a></li>
+                        <li><a href="captain.html">Captain America</a></li>
+                        <li><a href="spiderman.html">Spiderman</a></li>
+                        
+                        </ul>
+                </li>
+                <li class="menu-item"><a href="film.html" target="_blank">MARVEL+</a></li>
+                    <li class="menu-item active"><a href="satis.html" target="_blank">MARVELSHOP</a></li>
+                    <li class="menu-item"><a href="login.html">MARVELFAN</a></li>
+                </ul>
+            </div>
+        </div>  
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var currentPage = window.location.pathname.split("/").pop();
+                var menuItems = document.querySelectorAll(".menu-item");
+                
+                menuItems.forEach(function(item) {
+                    var link = item.querySelector("a").getAttribute("href");
+                    if (link === currentPage) {
+                        item.querySelector("a").style.color = "red";
+                    }
+                });
+            });
+        </script>
+        
+        <div class="main" id="Home">
+            <div class="main_content">
+                <div class="main_text">
+                    <h1>AVENGERS<br><span>KOLEKSİYONU</span></h1>
+                    
+                </div>
+                <div class="main_image">
+                    <img src="image/avengersarkasiz.png">
+                </div>
+            </div>
+           
+           
+        </div>
+
+    </section>
+
+
+    <!--Products-->
+
+    <div class="products" id="Products">
+     
+
+        <div class="box">
+            <div class="card">
+
+     
+
+                <div class="image">
+                    <img src="image/marvelspidermanarkasiz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Spiderman figür-1
+                    </p>
+                    <h3>₺8559.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+               
+
+                <div class="image">
+                    <img src="image/marvelhulkarkasiz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Hulk figür-1
+                    </p>
+                    <h3>₺9259.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+           
+                <div class="image">
+                    <img src="image/marveldrstranger2arkasiz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Dr. Strange figür-1
+                    </p>
+                    <h3>₺6159.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+           
+
+                <div class="image">
+                    <img src="image/marvelthor3arkasizz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Thor figür-1
+                    </p>
+                    <h3>₺5659.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+               
+
+                <div class="image">
+                    <img src="image/marvelblackpantherarkasiz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Black Panther figür-1
+                    </p>
+                    <h3>₺9150.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+          
+
+                <div class="image">
+                    <img src="image/marvelthanosthanos.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Thanos figür-1
+                    </p>
+                    <h3>₺10220.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                
+                <div class="image">
+                    <img src="image/marvelironman2arkasiz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Iron Man figür-1
+                    </p>
+                    <h3>₺4590.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                
+                <div class="image">
+                    <img src="image/marvelgreengoblinarkasiz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Green Goblin figür-1
+                    </p>
+                    <h3>₺8569.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+            <div class="card">
+
+                
+                <div class="image">
+                    <img src="image/marvelthorarkasiz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Thor figür-2
+                    </p>
+                    <h3>₺4589.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+            <div class="card">
+
+                
+                <div class="image">
+                    <img src="image/marvelvenomarkasiz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Venom figür-1
+                    </p>
+                    <h3>₺5680.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+            <div class="card">
+
+                
+                <div class="image">
+                    <img src="image/marveljuggernautarkasiz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Juggernaut figür-1
+                    </p>
+                    <h3>₺6389.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+            <div class="card">
+
+                
+                <div class="image">
+                    <img src="image/marveldeadpoolarkasiz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Deadpool figür-1
+                    </p>
+                    <h3>₺7239.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+            <div class="card">
+
+                
+                <div class="image">
+                    <img src="image/marvelcaptainamericaarkasiz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Captain America figür-1
+                    </p>
+                    <h3>₺9759.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+            <div class="card">
+
+                
+                <div class="image">
+                    <img src="image/marvelspiderman2arkasiz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Spiderman figür-2
+                    </p>
+                    <h3>₺8899.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+            <div class="card">
+
+                
+                <div class="image">
+                    <img src="image/marveldrstrangerarkasiz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Dr. Strange figür-2
+                    </p>
+                    <h3>₺7389.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+            <div class="card">
+
+                
+                <div class="image">
+                    <img src="image/grootarkasiz.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Groot figür-1
+                    </p>
+                    <h3>₺8079.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+            <div class="card">
+
+                
+                <div class="image">
+                    <img src="image/ironmanbardak.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Iron Man Kupa
+                    </p>
+                    <h3>₺1389.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+            <div class="card">
+
+                
+                <div class="image">
+                    <img src="image/thorbardak.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Thor Kupa
+                    </p>
+                    <h3>₺1389.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+            <div class="card">
+
+                
+                <div class="image">
+                    <img src="image/hulkbardak.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Hulk Kupa
+                    </p>
+                    <h3>₺1389.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+            <div class="card">
+
+                
+                <div class="image">
+                    <img src="image/spidermanbardak.png">
+                </div>
+
+                <div class="products_text">
+                    <h2>MARVEL</h2>
+                    <p>
+                        Spiderman Kupa
+                    </p>
+                    <h3>₺1389.99</h3>
+                    <div class="products_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <a href="#" class="btn">Sepete Ekle</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+        <script>
+            function functio(small){
+                var full = document.getElementById("imagebox")
+                full.src = small.src
+            }
+        </script>
+        
+    </div>
+
+
+
+    <!--Review-->
+
+    <div class="review" id="Review">
+       
+        
+        <div class="review_box">
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="image/dilara.png">
+                        </div>
+
+                        <div class="name">
+                            <strong>Dilara Karataş</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                         Iron Man Kupa aldım arkadaşıma doğum günü hediyesi gayet güzel sağlam geldi.
+                    </p>
+                </div>
+            </div>   
+
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="image/dilan.png">
+                        </div>
+
+                        <div class="name">
+                            <strong>Dilan Kartaloğlu</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Iron Man figür-1 ürününüzü aldım gerçekten çok güzel, beklediğimden kaliteli geldi.
+                    </p>
+                </div>
+            </div>   
+
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="image/senem.png">
+                        </div>
+
+                        <div class="name">
+                            <strong>Senem Yaman</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Hulk figür-1 ürününüzü aldım çok güzel tam bi fiyat performans ürünü.
+                    </p>
+                </div>
+            </div>   
+
+        </div>
+
+        <div class="review_box">
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="image/nilay.png">
+                        </div>
+
+                        <div class="name">
+                            <strong>Nilay Balcı</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Thor figür-2 ürününüzü satın aldım çok güzel kızım bayıldı kaliteli.
+                    </p>
+                </div>
+            </div>   
+
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="image/yaren.png">
+                        </div>
+
+                        <div class="name">
+                            <strong>Yaren Besler</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Groot figür-1 ürününüzü aldım çok güzel çocuklarım severek oynuyor.
+                    </p>
+                </div>
+            </div>   
+
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                            <img src="image/ceylin.png">
+                        </div>
+
+                        <div class="name">
+                            <strong>Ceylin Ün</strong>
+
+                            <div class="like">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Spiderman figür-1 ürününüzü yeğenime hediye aldım severek oynuyor.
+                    </p>
+                </div>
+            </div>   
+
+        </div>
+
+    </div>
+
+
+  
+
+
+
+    <!--Footer-->
+
+    <div id="footer">
+        <img src ="image/logo.png">
+            <div id="footermetin1">
+        
+                <p>
+                    <br><br> Gizlilik Politikası &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tanımlama Bilgileri Politikası&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Üyelik Sözleşmesi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yardım&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gizlilik Tercihlerini Yönetin</p>
+    
+            </div>
+        <div id="footermetin2">
+            
+            <h3>Marvel Takip </h3>
+            <br>
+            <i class="fa-brands fa-twitter fa-xl" style="color: #bdbdbd;"></i>&nbsp;&nbsp;&nbsp;
+            <i class="fa-brands fa-instagram fa-xl" style="color: #bdbdbd;"></i>&nbsp;&nbsp;&nbsp;
+            <i class="fa-brands fa-facebook fa-xl" style="color: #bdbdbd;"></i>&nbsp;&nbsp;&nbsp;
+            <i class="fa-brands fa-tiktok fa-xl" style="color: #bdbdbd;"></i>
+            
+        </div>
+     <footer>
+            <p class="copyright">&copy; 2024 Marvel Comics. Tüm hakları saklıdır.</p>
+        </footer>
+    
+       
+        
+    </div>
+</div>
+
+    
+</body>
+</html>

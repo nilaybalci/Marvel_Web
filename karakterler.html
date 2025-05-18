@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARAKTERLER</title>
+    <link rel="stylesheet" href="karakterler.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+</head>
+<body>
+    <div class="main">
+    <div id="menu">
+        <div class="logo">
+            <a href="index.html"><img src ="image/logo.png"></a>
+        </div>
+        <div class="search">
+            
+            <ul>
+                
+                <li class="menu-item"><a href="karakterler.html" target="_blank">KARAKTERLER</a> 
+                    <ul class="submenu">
+                    <li><a href="ironman.html">Iron Man</a></li>
+                    <li><a href="hulk.html">Hulk</a></li>
+                    <li><a href="thanos.html">Thanos</a></li>
+                    <li><a href="thor.html">Thor</a></li>
+                    <li><a href="captain.html">Captain America</a></li>
+                    <li><a href="spiderman.html">Spiderman</a></li>
+                    
+                    </ul>
+            </li>
+            <li class="menu-item"><a href="film.html" target="_blank">MARVEL+</a></li>
+                <li class="menu-item"><a href="satis.html" target="_blank">MARVELSHOP</a></li>
+                <li class="menu-item active"><a href="login.html">MARVELFAN</a></li>
+                
+            </ul>
+        </div>
+    </div>  
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var currentPage = window.location.pathname.split("/").pop();
+            var menuItems = document.querySelectorAll(".menu-item");
+            
+            menuItems.forEach(function(item) {
+                var link = item.querySelector("a").getAttribute("href");
+                if (link === currentPage) {
+                    item.querySelector("a").style.color = "red";
+                }
+            });
+        });
+    </script>
+
+<div class="container">
+<a href="ironman.html" alt="Mythrill" >
+    <div class="card" id="card1">
+      <div class="wrapper">
+        <img src="image/ironarkas.jpg" class="cover-image" />
+      </div>
+      <img src="" class="title" />
+      <img src="image/ironarkasiizz.png" class="character"  id="character1" />
+    </div>
+  </a>
+  <a href="captain.html" alt="Mythrill">
+    <div class="card" id="card2">
+      <div class="wrapper">
+        <img src="image/captanarkas.jpg" class="cover-image" />
+      </div>
+      <img src="" class="title" />
+      <img src="image/captaincard.png" class="character" id="character2"/>
+    </div>
+</a>
+<a href="thor.html" alt="Mythrill">
+    <div class="card" id="card3">
+      <div class="wrapper">
+        <img src="image/thorarkas.jpg" class="cover-image" />
+      </div>
+      <img src="" class="title" />
+      <img src="image/thorarkacard.png" class="character" id="character3"/>
+    </div>
+</a>
+<a href="hulk.html" alt="Mythrill">
+    <div class="card" id="card4">
+      <div class="wrapper">
+        <img src="image/hulksiyah.jpg" class="cover-image" />
+      </div>
+      <img src="" class="title" />
+      <img src="image/hulkcard.png" class="character" id="character4"/>
+    </div>
+</a>
+<a href="thanos.html" alt="Mythrill">
+    <div class="card" id="card5">
+      <div class="wrapper">
+        <img src="image/thanosarkas.jpg" class="cover-image" />
+      </div>
+      <img src="" class="title" />
+      <img src="image/thanoscard.png" class="character" id="character5"/>
+    </div>
+</a>
+<a href="spiderman.html" alt="Mythrill">
+    <div class="card" id="card6">
+      <div class="wrapper">
+        <img src="image/spiderraarkas.jpg" class="cover-image" />
+      </div>
+      <img src="" class="title" />
+      <img src="image/spidermancard.png" class="character" id="character6"/>
+    </div>
+</a>
+
+</div>
+
+</div>
+
+<div id="footer">
+    <img src ="image/logo.png">
+        <div id="footermetin1">
+    
+            <p>
+                <br><br> Gizlilik Politikası &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tanımlama Bilgileri Politikası&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Üyelik Sözleşmesi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yardım&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gizlilik Tercihlerini Yönetin</p>
+
+        </div>
+    <div id="footermetin2">
+        <h3>Marvel Takip </h3>
+        <i class="fa-brands fa-twitter fa-xl" style="color: #bdbdbd;"></i>&nbsp;&nbsp;&nbsp;
+        <i class="fa-brands fa-instagram fa-xl" style="color: #bdbdbd;"></i>&nbsp;&nbsp;&nbsp;
+        <i class="fa-brands fa-facebook fa-xl" style="color: #bdbdbd;"></i>&nbsp;&nbsp;&nbsp;
+        <i class="fa-brands fa-tiktok fa-xl" style="color: #bdbdbd;"></i>
+        
+    </div>
+ <footer>
+        <p class="copyright">&copy; 2024 Marvel Comics. Tüm hakları saklıdır.</p>
+    </footer>
+
+    
+  
+
+</div>
+
+<script src="karakterler.js"></script>
+</body>
+</html>

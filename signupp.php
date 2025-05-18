@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARVELFAN KAYIT</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+</head>
+<body>
+    <div class="main">
+    <div id="menu">
+        <div class="logo">
+            <a href="index.html"><img src ="image/logo.png"></a>
+        </div>
+        <div class="search">
+            
+            <ul>
+                
+                <li class="menu-item"><a href="karakterler.html" target="_blank">KARAKTERLER</a> 
+                    <ul class="submenu">
+                    <li><a href="ironman.html">Iron Man</a></li>
+                    <li><a href="hulk.html">Hulk</a></li>
+                    <li><a href="thanos.html">Thanos</a></li>
+                    <li><a href="thor.html">Thor</a></li>
+                    <li><a href="captain.html">Captain America</a></li>
+                    <li><a href="spiderman.html">Spiderman</a></li>
+                    
+                    </ul>
+            </li>
+            <li class="menu-item"><a href="film.html" target="_blank">MARVEL+</a></li>
+                <li class="menu-item"><a href="satis.html" target="_blank">MARVELSHOP</a></li>
+                <li class="menu-item active"><a href="login.html">MARVELFAN</a></li>
+            </ul>
+        </div>
+    </div>  
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var currentPage = window.location.pathname.split("/").pop();
+            var menuItems = document.querySelectorAll(".menu-item");
+            
+            menuItems.forEach(function(item) {
+                var link = item.querySelector("a").getAttribute("href");
+                if (link === currentPage) {
+                    item.querySelector("a").style.color = "red";
+                }
+            });
+        });
+    </script>
+    <section>
+        <form> 
+            <h1>MARVELFAN KAYIT</h1>
+            <div class="inputbox">
+                <input type="text" name="kullaniciadi"placeholder="Kullanıcı Adı"/>
+               
+            </div>
+          
+
+            <div class="inputbox"> 
+                <input type="email" name="email" placeholder="Email"/>
+           
+        </div>
+
+
+            <div class="inputbox">
+                 <input type="password" name="sifre" placeholder="Şifre"/>
+            
+        </div>
+       
+
+      
+
+            <button>Kayıt ol</button>
+            <div class="register">
+                <p>Zaten hesabın var mı?<a href="login.html"> Giriş yap</a></p>
+        </form>
+    </section>
+</div>
+    <div id="footer">
+        <img src ="image/logo.png">
+            <div id="footermetin1">
+        
+                <p>
+                    <br><br> Gizlilik Politikası &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tanımlama Bilgileri Politikası&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Üyelik Sözleşmesi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yardım&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gizlilik Tercihlerini Yönetin</p>
+    
+            </div>
+        <div id="footermetin2">
+            <h3>Marvel Takip </h3>
+            <i class="fa-brands fa-twitter fa-xl" style="color: #bdbdbd;"></i>&nbsp;&nbsp;&nbsp;
+            <i class="fa-brands fa-instagram fa-xl" style="color: #bdbdbd;"></i>&nbsp;&nbsp;&nbsp;
+            <i class="fa-brands fa-facebook fa-xl" style="color: #bdbdbd;"></i>&nbsp;&nbsp;&nbsp;
+            <i class="fa-brands fa-tiktok fa-xl" style="color: #bdbdbd;"></i>
+            
+        </div>
+     <footer>
+            <p class="copyright">&copy; 2024 Marvel Comics. Tüm hakları saklıdır.</p>
+        </footer>
+    
+        
+        
+    </div>
+    
+
+</body>
+</html>
+<?php
+ include("signup.php")
+?>
